@@ -1,0 +1,120 @@
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+
+/* Styles */
+#bmc-canvas{
+  border: 1px solid $vin-green;
+  padding: 0;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.bmc-col{
+  border: 1px solid $vin-green;
+  height: 150px;
+  padding: 0;
+}
+
+#bmc-top .bmc-col{
+  height: 450px;
+}
+
+.col-xs.bmc-col{
+  padding: 0;
+}
+
+.col-xs.bmc-col .bmc-box{
+  padding: 0;
+}
+
+.bmc-box{
+  border-bottom: 1px solid $vin-green;
+  border-top: 1px solid $vin-green;
+  height: 225px;
+}
+
+#bmc-top .bmc-col .bmc-box:first-child{
+  border-top: none;
+}
+
+#bmc-top, #bmc-bottom{
+  margin: 0;
+}
+
+.bmc-section{
+  position: relative;
+  height: 100%;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.section-title{
+  font-size: 14px;
+  margin: 5px;
+}
+
+.bmc-section-items{
+  padding: 6px 3px;
+}
+
+.bmc-item{
+  margin: 2px;
+  padding: 10px 2px;
+  background-color: #97C02F;
+  color: white;
+  position: relative;
+}
+
+.bmc-item:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #658E15 #fff;
+  display: block;
+  width: 0;
+}
+
+#bmc-form{
+  width: 100%;
+  height: 85%;
+  background-color: rgba(0,0,0,0.9);
+  position: absolute;
+  border-bottom: 1px solid #000;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.bmc-add-form{
+  display: inline-block;
+  margin-left: 100px;
+  width: 500px;
+  font-size: 12px;
+
+  fieldset{
+    border: none;
+
+    input{
+      margin-left: 10px;
+      padding: 5px;
+      width: 200px;
+    }
+
+    select{
+      padding: 5px;
+      width: 150px;
+    }
+  }
+  .add-btn{
+    margin-left: 10px;
+    padding: 5px 15px;
+    font-size: 14px;
+    background-color: #97C02F;
+    color: white;
+  }
+}

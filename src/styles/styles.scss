@@ -1,0 +1,17 @@
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #60b044;
+$vin-red: #ff0000;
+
+body{
+  border: rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: $vin-blue;
+}
+
+.savings { color: $vin-green; }
+.loss { color: $vin-red; }
+
+

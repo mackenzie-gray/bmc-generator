@@ -1,0 +1,4 @@
+export const ADD_BMC_ITEM = 'ADD_BMC_ITEM';
+
+export const UPDATE_TEXT_INPUT = 'UPDATE_TEXT_INPUT';
+export const UPDATE_SELECTED_CAT = 'UPDATE_SELECTED_CAT';
