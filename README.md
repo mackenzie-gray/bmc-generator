@@ -2,6 +2,8 @@
 
 This is a web application built to generate business model canvases. Based off of [React-Slingshot](https://github.com/coryhouse/react-slingshot), this app is built with React and Redux
 
+![](ss.png)
+
 From Wikipedia:
 > The Business Model Canvas is a strategic management and lean startup template for developing new or documenting existing business models.It is a visual chart with elements describing a firm's or product's value proposition, infrastructure, customers, and finances.It assists firms in aligning their activities by illustrating potential trade-offs.
 
